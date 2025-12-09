@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lxdigitalfactory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-left">
+      <div class="logo"><span>ogxxcode.me</span></div>
+    </div>
+    <div class="nav-right">
+      <a href="#trailer" class="nav-link">Home</a>
+      <a href="#characters" class="nav-link">About</a>
+      <a href="#world" class="nav-link">Service</a>
+      <a href="#preorder" class="nav-link">Resume</a>
+      <a href="#preorder" class="nav-link">Portofolio</a>
+      <a href="#preorder" class="nav-link cta">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION (tidak diubah) -->
+  <section class="section hero" id="top">
+    <div class="hero-bg parallax-layer"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Hi! I'm Zuama Yogia Sukmasyah<br />
+      </h1>
+      <p class="hero-subtitle">BUILDING DIGITAL PRODUCTS, BRANDS, AND EXPERIENCE.</p>
+
+      <div class="platforms">
+        <span>All Design</span>
+        <span>Web Developer</span>
+        <span>UI/UX</span>
+        <span>Videographer</span>
+        <span>VFX 3D Animation</span>
+      </div>
+
+      <div class="hero-actions">
+        <a href="https://wa.me/6285848940211" class="btn primary">Let's Talk</a>
+        <a href="#preorder" class="btn ghost">Contact</a>
+      </div>
+
+      <div class="scroll-indicator">
+        <span>Scroll for more</span>
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAILER SECTION -->
+  <section class="section section-trailer" id="trailer">
+    <!-- LAYER BELAKANG: TETAP VIDEO BLUR FULLSCREEN -->
+    <div class="trailer-bg">
+      <video
+        src="./assets/footage1.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+      ></video>
+    </div>
+
+    <!-- OVERLAY GELAP TIPIS BIAR TEKS TERBACA -->
+    <div class="trailer-overlay"></div>
+
+    <!-- LAYER DEPAN: TEKS + FRAME GIF (BUKAN VIDEO) -->
+    <div class="trailer-content section-inner fade-on-scroll">
+      <h2 class="section-title">VFX 3D Animation</h2>
+      <p class="section-desc">
+        The design style of your business influences the visual value.
+      </p>
+
+      <div class="trailer-frame">
+        <!-- GIF pengganti video -->
+        <img
+          src="./assets/trailer.gif"
+          alt="Pioneer Things Animation"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- CHARACTERS SECTION (CARD GIF) -->
+  <section class="section section-characters" id="characters">
+    <div class="section-inner">
+      <h2 class="section-title">Interface Style</h2>
+      <p class="section-desc">
+        Our feature works
+      </p>
+
+      <div class="cards-grid">
+        <article class="character-card slide-up-on-scroll">
+          <img src="./assets/card1.gif" alt="Interface Style 1" />
+        </article>
+
+        <article class="character-card slide-up-on-scroll">
+          <img src="./assets/card1.gif" alt="Interface Style 2" />
+        </article>
+
+        <article class="character-card slide-up-on-scroll">
+          <img src="./assets/card1.gif" alt="Interface Style 3" />
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORLD SECTION (BACKGROUND VIDEO TETAP) -->
+  <section class="section section-dark" id="world">
+    <div class="section-inner">
+      <h2 class="section-title">LXD Works</h2>
+      <p class="section-desc">
+        There is no limit to developing your business, 
+        our clients are not only institutions or private companies, we are also available for small businesses.
+      </p>
+
+      <div class="world-grid">
+        <div class="world-item fade-on-scroll">
+          <div class="world-image world-image-1"></div>
+          <h3>Vice Bay</h3>
+          <p>Tourist paradise by day. Underground deals after dark.</p>
+        </div>
+        <div class="world-item fade-on-scroll">
+          <div class="world-image world-image-2"></div>
+          <h3>Old Blocks</h3>
+          <p>Where loyalty is currency, and every corner has eyes.</p>
+        </div>
+        <div class="world-item fade-on-scroll">
+          <div class="world-image world-image-3"></div>
+          <h3>Outskirts</h3>
+          <p>Lonely highways, secret airstrips, and hidden stashes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / PREORDER SECTION DENGAN BACKGROUND VIDEO BLUR -->
+  <section class="section section-world" id="preorder">
+    <div class="world-bg">
+      <!-- ini juga tetap VIDEO, bukan GIF -->
+      <video src="./assets/footage3.mp4" autoplay muted loop playsinline></video>
+    </div>
+    <div class="world-overlay"></div>
+
+    <div class="section-inner">
+      <h2 class="section-title">Contact</h2>
+      <div class="section-inner fade-on-scroll">
+        <h2 class="section-title"></h2>
+        <p class="section-desc">
+          Get the latest updates.
+        </p>
+
+        <div class="preorder-buttons">
+          <a href="https://www.instagram.com/lxdigitalfactory" class="btn primary">Our Company</a>
+          <a href="https://www.instagram.com/lxdvfx.studio" class="btn primary">LXD Studios</a>
+        </div>
+
+        <form class="newsletter-form">
+          <div class="newsletter-input">
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button type="submit" class="btn ghost">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section> 
+
+  <footer class="footer">
+    <p>All trademarks are property of their respective owners.</p>
+    <p>Powered By:</p>
+    <p>© 2025 PT DIGI KARYA HARMONI</p>
+  </footer>
+
+  <!-- <div class="audio-control">
+    <button id="audioToggle" aria-label="Toggle music">
+      🔊 Music On
+    </button>
+    <audio id="bgMusic" loop>
+      <source src="./assets/bgmusic.mp3" type="audio/mpeg" />
+      Browser kamu tidak mendukung audio HTML5.
+    </audio>
+  </div> -->
+  <script src="main.js"></script>
+</body>
+</html>
